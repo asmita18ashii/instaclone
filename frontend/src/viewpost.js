@@ -5,7 +5,7 @@ export const ViewPost = () => {
     const [userdata, setuserdata] = useState(null);
     console.log("rerendder");
     const fecthrender = () => {
-        fetch('https://backend-g5lf.onrender.com/view').then(data => {
+        fetch('https://instaclone-wr1m.onrender.com/view').then(data => {
             return data.json();
         }).then(body => {
             setuserdata(body)

@@ -6,7 +6,7 @@ const AppBackup=()=>{
   const [userdata,setuserdata]=useState(null);
   console.log("rerendder");
   const fecthrender=()=>{
-    fetch('http://localhost:8081/view').then(data=>{
+    fetch('https://instaclone-wr1m.onrender.com/view').then(data=>{
       return data.json();
     }).then(body=>{
       setuserdata(body)

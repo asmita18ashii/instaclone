@@ -19,7 +19,7 @@ export const FormPost=()=>{
             console.log(val)
         })
         
-        fetch("https://backend-g5lf.onrender.com/api",{
+        fetch("https://instaclone-wr1m.onrender.com/api",{
             method:'POST',
             // headers:{
             //     'content-Type':'application/json',

@@ -15,7 +15,7 @@ export const Post = (values) => {
                             </span>
                         </section>
                         <section className="main-img">
-                            <img src={`https://backend-g5lf.onrender.com/image/${val.Image_file}`} />
+                            <img src={`https://instaclone-wr1m.onrender.com/image/${val.Image_file}`} />
                         </section>
                         <section className="card-action">
                             <span >
